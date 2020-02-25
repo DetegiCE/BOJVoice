@@ -8,4 +8,6 @@
 
 ![ssh](https://user-images.githubusercontent.com/26007107/75275054-3e568000-5847-11ea-9166-e6e5415ba1bf.png)
 
+[https://www.acmicpc.net/status?problem_id=&user_id=martinok1103_test&language_id=-1&result_id=-1](https://www.acmicpc.net/status?problem_id=&user_id=martinok1103_test&language_id=-1&result_id=-1)
+
 테스트의 흔적
