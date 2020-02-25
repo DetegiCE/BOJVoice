@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+
+    "name": "BOJ VOICE",
+    "description": "This application tells your submission result in BOJ - made by DetegiCE",
+    "version": "1.0",
+
+    "content_scripts": [
+        {
+            "run_at": "document_end",
+            "matches": ["https://www.acmicpc.net/status*"],
+            "js": ["script.js"]
+        }
+    ],
+
+    "web_accessible_resources": [
+        "*.mp3"
+    ],
+
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ]
+}
